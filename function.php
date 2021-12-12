@@ -1,6 +1,6 @@
 <?php
 function db_query($query) {
-    $connection = mysqli_connect("localhost","root","","datos");
+    $connection = mysqli_connect("localhost","root","","bdweb");
     $result = mysqli_query($connection,$query);
 
     return $result;

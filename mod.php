@@ -36,7 +36,7 @@
 
 <?php 
 include("function.php");
-$id = $_GET['id'];
+$id= $_GET['id'];
 select_id('datos','id',$id);
 ?>
 

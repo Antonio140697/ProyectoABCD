@@ -5,13 +5,13 @@
 <table border="1" width="80%" align="center">
 	<tr>
 	<th width="30%">id</th>
-    <th width="30%">id</th>
-	<th width="30%">fecha</th>
-	<th width="30%">hora</th>
-	<th width="30%">Nombres</th>
-	<th width="30%">correo</th>
-		<th width="30%">direccion</th>
-		<th width="30%">ciudad</th>
+    <th width="30%">Rfc</th>
+	<th width="30%">Nombre</th>
+	<th width="30%">Ape_pat</th>
+	<th width="30%">Ape_mat</th>
+	<th width="30%">$Edad</th>
+	<th width="30%">$Sexo</th>
+	<th width="30%">Mensaje</th>
 		
 	</tr>
 <?php 
@@ -23,7 +23,7 @@
      	<td><?php echo $row->id;?></td>
          <td><?php echo $row->Rfc;?></td>
     	<td><?php echo $row->Nombre;?></td>
-		<td><?php echo $row->Ape_mat;?></td>
+		<td><?php echo $row->Ape_pat;?></td>
 		<td><?php echo $row->Ape_mat;?></td>
 		<td><?php echo $row->Edad;?></td>
 		<td><?php echo $row->Sexo;?></td>
@@ -36,7 +36,7 @@
 	</td>
 	<td>
 <a class="btn btn-primary" href="eliminar.php?id=<?php echo $row->id; ?>">
-<i class="fa fa-pencil fa-lg" aria-hidden="true">borrar</i></a>
+<i class="fa fa-pencil fa-lg" aria-hidden="true">Eliminar</i></a>
         </td>
 	</tr>
 	

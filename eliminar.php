@@ -1,8 +1,8 @@
 <?php
 
 include("function.php");
-$id = $_GET['id'];
-delete('datos','id',$id);
+$Rfc = $_GET['id'];
+delete('datos','id',$Rfc);
 header("location:consultas.php");
 
 
