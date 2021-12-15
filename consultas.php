@@ -2,16 +2,16 @@
 <?php
 	include("function.php");
 ?>
-<table border="1" width="80%" align="center">
+<table border="10" class="table table-blue" width="90%" heigh="30" align="center">
 	<tr>
-	<th width="30%">id</th>
-    <th width="30%">Rfc</th>
-	<th width="30%">Nombre</th>
-	<th width="30%">Ape_pat</th>
-	<th width="30%">Ape_mat</th>
-	<th width="30%">$Edad</th>
-	<th width="30%">$Sexo</th>
-	<th width="30%">Mensaje</th>
+	<th width="10%">ID</th>
+    <th width="15%">RFC</th>
+	<th width="15%">NOMBRE</th>
+	<th width="15%">APELLIDO PATERNO</th>
+	<th width="15%">APELLIDO MATERNO</th>
+	<th width="10%">EDAD</th>
+	<th width="15%">SEXO</th>
+	<th width="80%">MENSAJE</th>
 		
 	</tr>
 <?php 

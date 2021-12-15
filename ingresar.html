@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  
+
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -37,7 +37,22 @@
   ======================================================== -->
 </head>
 
+<style>
+.mix input{
 
+  border: 3px solid;
+  border-color: yellowgreen;
+
+}
+.mix select{
+  
+  border: 3px solid;
+  border-color: yellowgreen;
+
+}
+
+
+</style>
 <body>
   
   <!-- ======= Header ======= -->
@@ -76,50 +91,57 @@
     </div><!-- End Breadcrumbs -->
 
     <!-- ======= Contact Section ======= -->
-    <section id= "ingresar" class="ingresar">
+    <section id= "contact" class="contact">
        
       <div class="container" data-aos="fade-up">
-          </div>
+        
         
           <div class="col-lg-8 mt-5 mt-lg-0">
             <form action="Procesa.php" method="post" role="form" class="php-email-form">
               <div class="row">
               
                 <center>  
-                <div class="col-md-6 form-group">
-                  <input type="text" name="id" class="form-control" id="Rfc" placeholder="Rfc" required>
+                <div class="mix col-md-6 form-group">
+                  <input type="text" name="Rfc" class="form-control" id="Rfc" placeholder="RFC" required>
                 </div>
         
               </center>
               <center> 
-                <div class="col-md-6 form-group">
-                    <input type="text" name="Nombre" class="form-control" id="Nombre" placeholder="Nombre" required>
+                <div class="mix col-md-6 form-group">
+                    <input type="text" name="Nombre" class="form-control" id="Nombre" placeholder="NOMBRE" required>
                   </div>
                 </center>
                 <center> 
-                  <div class="col-md-6 form-group">
-                    <input type="text" name="Ape_pat" class="form-control" id="Ape_pat" placeholder="Ape_pat" required>
+                  <div class="mix col-md-6 form-group">
+                    <input type="text" name="Ape_pat" class="form-control" id="Ape_pat" placeholder="APELLIDO PATERNO" required>
                   </div>
                 </center>
                 <center>
-                  <div class="col-md-6 form-group">
-                    <input type="text" name="Ape_mat" class="form-control" id="Ape_mat" placeholder="Ape_mat" required>
+                  <div class="mix col-md-6 form-group">
+                    <input type="text" name="Ape_mat" class="form-control" id="Ape_mat" placeholder="APELLIDO MATERNO" required>
                   </div>
                 </center>
                 <center>
-                <div class="col-md-6 form-group">
-                  <input type="text" name="Sexo" class="form-control" id="Sexo" placeholder="Sexo" required>
+                <div class=" mix col-md-6 form-group">
+                <select id="Sexo" name="Sexo" class="form-control" placeholder="SEXO" required>
+                  <option id="Sexo" value="Femenino" >.........</option>
+                  <option id="Sexo" value="Masculino" placeholder="MASCULINO" >Masculino </option>
+                 <option id="Sexo" value="Femenino" >Femenino </option>
+                 <option id="Sexo" value="Indefinido" >Indefinido </option>
+
+                </select>
+                 <!-- <input type="text" name="Sexo" class="form-control" id="Sexo" placeholder="Sexo" required>-->
                 </div>
               </div>
             </center>
               <center>  
-              <div class="col-md-6 form-group">
-                <input type="text" name="Edad" class="form-control" name="Edad" id="Edad" placeholder="Edad" required>
+              <div class=" mix col-md-6 form-group">
+                <input type="text" name="Edad" class="form-control" name="Edad" id="Edad" placeholder="EDAD" required>
               </div>
             </center>
             <center>
-              <div class="col-md-6 form-group">
-                <input type="text" name="Mensaje" class="form-control" name="Mensaje" id="Mensaje" placeholder="Mensaje" required>
+              <div class="mix col-md-6 form-group">
+                <input type="text"  name="Mensaje" class="form-control" name="Mensaje" id="Mensaje" placeholder="MENSAJE" required>
               </div>
             </center>
 
